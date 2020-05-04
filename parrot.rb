@@ -5,14 +5,8 @@
 #Default argument is "Squawk"
 #return value of puts
 
-def parrot(phrase)
- phrase = Squawk""
- "Squawk"
+def parrot(phrase = "Squawk!")
  puts phrase
- return phrase
+ phrase
 end
 
-def parrot(pronouns="Squawk!")
-    puts pronouns
-    pronouns
-end
