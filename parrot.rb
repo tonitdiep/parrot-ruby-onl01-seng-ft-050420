@@ -5,7 +5,7 @@
 #Default argument is "Squawk"
 #return value of puts
 
-def parrot(phrase = "Squawk")
+def parrot(phrase)
  phrase = "Squawk"
  "Squawk"
  return phrase
