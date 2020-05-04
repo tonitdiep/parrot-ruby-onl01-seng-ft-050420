@@ -6,7 +6,7 @@
 #return value of puts
 
 def parrot(phrase)
- phrase = "Squawk"
+ phrase = parrot
  "Squawk"
  puts phrase
  return phrase
